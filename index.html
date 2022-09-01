@@ -1,48 +1,33 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> My Projects </title>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-  
-    <body>
-        <section id = "Apps">
-        <h1>Apps</h1>
-        <div class = "line"></div>
-            <br>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/sWOKBBB8jswoq6wh5xmb7gpiYdtk0WzoLgdodPP9NQo/embed"></iframe>
-            
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/WdjE0d7yRZQ_zLE85aLnM0i42MDqK2REgTRkA87JOno/embed"></iframe>
-            
-        </section>
-        
-        <section id = "Games">
-            <h1> Games </h1>
-        <div class = "line"></div>
-            <br>
-            <a href = "https://studio.code.org/projects/spritelab/mSXigsYtl-prX5N_T79uU3Z64sgFXrlN5zUpSuI9Ybc" target="_blank">
-            <img src="CarGame.png">
-            </a>
-            
-            <a href="https://studio.code.org/projects/spritelab/DyhHRdS8uxJFS92EGPDPbAhKfiV41QW7G3tNc_Bt1dk" target="_blank"> 
-            <img src="WinnieGame.png">
-            </a>
-        
-        </section>
-        
-        <section id = "Chatbot">
-        <h1>Chatbot</h1>
-            <div class = "line"></div>
-            <br>
-            <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/0e928765-35a6-4818-8268-3ca45c830481">
-</iframe>
-        
-        </section>
-                 
-        
-    </body>
+	<title>Math Quiz</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+<center>
+<h1> Math Quiz </h1>
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-11 login_div1">
+<h3> Player 1 Login For the Game </h3>
+<label> username: </label>
+<input type="text" id="player1_name_input" class="form-control" placeholder="player1 name">
+</div>
+<br>
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-11 login_div2">
+	<h3> Player 2 Login For the Game </h3>
+	<label> username: </label>
+	<input type="text" id="player2_name_input" class="form-control" placeholder="player2 name">
+	</div>
+	<br>
+	<button class="btn btn-primary" style="width:30%;" onclick="adduser()">Login</button>
+</center>
+</body>
 </html>
