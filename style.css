@@ -1,33 +1,40 @@
-body{
-    font-family: 'Delicious Handrawn', cursive;
-    background-color:rgb(255, 188, 164);
+body
+{
+  color: white;
+  background: #f6b0ff;
 }
-.header_div{
-    background-color:white;
-    color:red;
+span
+{
+  font-size: 30px;
 }
-.header_div p{
-    font-family: 'Delicious Handrawn', cursive;
-    color: grey;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: bold;
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
 }
-.main_div button{
-    font-family:fantasy;
-    margin-top: 30px;
-    width:130px;
-    font-weight: bolder;
-    letter-spacing: 3px;
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
 }
-.copy_right_footer{
-    position: fixed;
-    color: grey;
-    bottom: 0;
-    width: 100%;
-    font-size: 18px;
-    background-color: white;
-    line-height: 3;
-    text-align: center;
-    text-shadow: 5px 5px 5px grey;
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;  
+}
+
+label{
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 6px;
+  background-color: white;
+  color: green;
 }
